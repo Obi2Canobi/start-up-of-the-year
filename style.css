@@ -1,0 +1,67 @@
+/*
+* — selecting body , html makes the image cover with the image provided in the url —
+*/
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  height: 100%;
+   
+    background: url(header.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  
+}
+/*
+this selects the header all the h1s if it does not hav a class.
+*/
+h1 {
+font-size: 3rem;
+color: honeydew;
+}
+hr {
+  border-width: 3px;
+  border-color: rgb(184, 40, 40);
+  max-width: 65px;
+}
+
+/*
+this selects the borders of the button.
+*/
+.btn-xl {
+  padding: 1rem 2rem;
+}
+/*
+this is the text in the button.
+*/
+.btn {
+  font-size: large;
+  text-transform: uppercase;
+  border-radius: 300px;
+}
+
+
+/*
+This button is the colour of the tet back ground in the button.
+*/
+.btn-primary {
+  background-color: indianred;
+  border-color: indianred;
+  
+}
+/*
+When you hover the button changes to the below. 
+*/
+.btn-primary:hover {
+background-color: rgb(184, 40, 40);
+border-color: rgb(184, 40, 40);
+border-width:4px ;
+}
+
+.buffer {
+  height: 150px;
+}
